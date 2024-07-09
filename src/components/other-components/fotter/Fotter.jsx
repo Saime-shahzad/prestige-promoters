@@ -25,7 +25,7 @@ const StyledListItem = styled(ListItem)(({ theme }) => ({
 
 const Footer = () => {
   return (
-    <Grid container spacing={2} px={10} sx={{ overflowX: "hidden", mb: 2 }}>
+    <Grid container spacing={2} px={10}  sx={{ overflowX: "hidden", mb: 2 }}>
       <Grid
         item
         xs={12}
