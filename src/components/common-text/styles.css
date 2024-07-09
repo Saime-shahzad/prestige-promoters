@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Imported";
+  src: url("../../assets/fonts/APOLLO-Regular.woff");
+}
+
+.commonPara {
+  font-family: "Imported";
+  background-image: linear-gradient(#c4a750 30%, #faec79 50%, #b19545 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin: 0ch;
+  padding: 0ch;
+}
+.TextNoGradient {
+  font-family: "Imported";
+  margin: 0ch;
+  padding: 0ch;
+}

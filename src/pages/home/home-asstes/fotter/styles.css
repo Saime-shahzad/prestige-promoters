@@ -1,0 +1,12 @@
+@font-face {
+  font-family: Imported;
+  src: url("../../../../assets/fonts/APOLLO-Regular.woff");
+}
+
+.fotterHeading {
+  font-family: Imported;
+  font-size: 20px;
+  color: #fff;
+  padding-left: 12px;
+  letter-spacing: 3px;
+}

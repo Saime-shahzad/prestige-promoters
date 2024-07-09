@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Imported";
+  src: url("../../assets/fonts/APOLLO-Regular.woff");
+}
+
+.idUserName {
+  font-family: Imported;
+  font-size: 24px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+.introText {
+  font-family: Imported;
+  font-size: 18px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+.userFllow {
+  margin: 0;
+  background-image: linear-gradient(#c4a750 30%, #faec79 50%, #b19545 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 18px;
+}

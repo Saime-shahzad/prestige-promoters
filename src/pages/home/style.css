@@ -1,0 +1,170 @@
+@font-face {
+  font-family: Imported;
+  src: url("../../assets/fonts/APOLLO-Regular.woff");
+}
+
+@font-face {
+  font-family: RegularPoppins;
+  src: url("../../assets/fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: LightPoppins;
+  src: url("../../assets/fonts/Poppins-Light.ttf");
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counterContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.counterImgContainer {
+  width: 5vw;
+  height: 5vw;
+}
+.mainbody {
+  /* background-color:; */
+}
+.apollo_text {
+  word-spacing: 0px;
+  font-family: Imported;
+  color: white;
+  font-size: 60.57px;
+  line-height: 72px;
+  /* letter-spacing: 5px; */
+}
+.about-us {
+  font-size: 42px;
+  font-weight: 500;
+  font-family: "Imported";
+  background-image: radial-gradient(
+    circle,
+    #c4a750 30%,
+    #faec79 50%,
+    #b19545 100%
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+.meet-client {
+  font-size: 42px;
+  font-weight: 500;
+  font-family: "Imported";
+  background-image: radial-gradient(
+    circle,
+    #c4a750 30%,
+    #faec79 50%,
+    #b19545 100%
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 0.5px;
+  margin: 0ch;
+  padding: 0ch;
+}
+.work {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: Imported;
+  background-image: linear-gradient(#c4a750 30%, #faec79 50%, #b19545 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 5px;
+  margin-bottom: -8px;
+}
+.about-sub-heading {
+  font-size: 32px;
+  font-weight: 100 !important ;
+  font-family: Imported;
+  color: #fff;
+  margin-top: 2;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  line-height: 40px;
+}
+.about-para {
+  font-size: 16px;
+  color: #fff;
+  margin: 0ch;
+  padding: 0ch;
+  font-family: LightPoppins;
+  margin-top: -5px;
+  text-transform: capitalize;
+}
+.your-events {
+  color: #fff;
+  margin-top: -10px;
+  font-family: LightPoppins;
+  text-transform: capitalize;
+}
+
+.availaibility-heading {
+  font-family: Imported;
+  background-image: linear-gradient(#c4a750 30%, #faec79 50%, #b19545 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.availaibility-para {
+  font-family: LightPoppins;
+}
+.part-of {
+  font-family: Imported;
+  background-image: radial-gradient(#c4a750 30%, #faec79 50%, #b19545 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 41px;
+  /* margin-bottom: -10px; */
+  margin-top: 20px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+.part-of-para {
+  font-family: LightPoppins;
+  font-size: 20px;
+  color: #fff;
+  text-transform: capitalize;
+  /* margin-top: 40px; */
+}
+
+.getStarted {
+  border: 1px solid #faec79;
+  /* padding-inline: 20px; */
+  transition: all 1s;
+  border-radius: 8px;
+}
+
+.getStarted:hover {
+  background-image: linear-gradient(#c4a750 30%, #faec79 50%, #b19545 100%);
+  background-color: transparent;
+}
+.getStartedText {
+  margin: 0;
+  font-family: Imported;
+  background-image: linear-gradient(#c4a750 30%, #faec79 50%, #b19545 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 22px;
+}
+.getStarted:hover .getStartedText {
+  color: #fff;
+}
+.classforfontFamilly{
+  font-family: "Poppins" !important;
+}

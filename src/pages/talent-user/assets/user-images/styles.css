@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Imported";
+  src: url("../../assets/fonts/APOLLO-Regular.woff");
+}
+
+.nextPreViousOptions {
+  margin: 0;
+  background-image: linear-gradient(#c4a750 30%, #faec79 50%, #b19545 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 18px;
+}

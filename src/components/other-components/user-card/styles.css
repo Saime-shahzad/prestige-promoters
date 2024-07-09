@@ -1,0 +1,141 @@
+@font-face {
+  font-family: Imported;
+  src: url("../../../assets/fonts/APOLLO-Regular.woff");
+}
+
+@font-face {
+  font-family: RegularPoppins;
+  src: url("../../../assets/fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: LightPoppins;
+  src: url("../../../assets/fonts/Poppins-Light.ttf");
+}
+
+.user-card-container {
+  position: relative;
+  background-color: #1d1c1c;
+}
+
+.quick-add {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  padding: 10px;
+  text-align: center;
+  transition: opacity 1s ease, bottom 1s ease;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-inline: 20px;
+  color: #fff;
+  height: 30px;
+}
+.arrows {
+  position: absolute;
+  bottom: 35px;
+  width: 100%;
+  padding-inline: 25px;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 1s ease, left 4s ease;
+}
+
+.user-card-container {
+  position: relative;
+  background-color: #1d1c1c;
+}
+
+.quick-add {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  /* padding: 10px; */
+  text-align: center;
+  transition: opacity 1s ease, bottom 1s ease;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* margin-inline: 20px; */
+  color: #fff;
+}
+.arrows {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  padding-inline: 25px;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 1s ease, left 4s ease;
+}
+
+.left-arrow,
+.right-arrow {
+  background: rgba(255, 255, 255, 0.16);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 80px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-arrow {
+  padding-left: 5px;
+}
+
+.user-card-container:hover .quick-add {
+  opacity: 1;
+  bottom: 10px;
+}
+
+.user-card-container:hover .arrows {
+  opacity: 1;
+}
+
+.availaibility {
+  background: rgba(255, 255, 255, 0.16);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  color: #fff;
+}
+
+.user-name-home-card {
+  color: white;
+  font-family: Imported;
+  font-size: 20px;
+  text-overflow: ellipsis;
+  max-width: 16ch;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-left: 10px;
+  margin-bottom: 0;
+  letter-spacing: 1.5px;
+}
+
+.available {
+  font-size: 14px;
+  font-family: LightPoppins;
+  margin: 0ch;
+}

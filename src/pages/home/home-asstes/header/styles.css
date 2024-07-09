@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Imported;
+  src: url("../../../../assets/fonts/APOLLO-Regular.woff");
+}
+
+.pagesText {
+  font-family: Imported;
+  font-size: 22px;
+  cursor: pointer;
+  margin: 0;
+  letter-spacing: 0.8px;
+  transition: all 0.1s ease-in-out;
+}
+
+.pagesText:hover {
+  font-family: "Imported";
+  background-image: radial-gradient(#c4a750 30%, #faec79 50%, #b19545 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  --bs-btn-padding-y:none;
+  color: white;
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+/* .btn:hover {transform: rotateZ(180deg);
+color: #ECC360 !important;}
+.css-z7kbfz-MuiButtonBase-root-MuiMenuItem-root.Mui-selected{
+  background-color: black !important;
+} */
+.parrantForArrows:hover  .btn {transform: rotateZ(180deg);
+  color: #ECC360 !important;}
+  .css-z7kbfz-MuiButtonBase-root-MuiMenuItem-root.Mui-selected{
+    background-color: black !important;
+  }

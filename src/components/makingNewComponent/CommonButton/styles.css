@@ -1,0 +1,28 @@
+.gradientBorderButton {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid transparent; /* Transparent border to define space for the gradient border */
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    color: #fff;
+    background-color: red;
+  }
+  
+  .gradientBorderButton::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border: 2px solid transparent;
+    background: linear-gradient(45deg, #ff8a00, #e52e71);
+    z-index: -1;
+    border-radius: 5px;
+  }
+  
+  .gradientBorderButton:hover::before {
+    filter: blur(5px);
+  }
+  
