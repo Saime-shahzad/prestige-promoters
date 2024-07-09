@@ -32,12 +32,14 @@ const Header = () => {
     {
       id: 1,
       title: "Login",
-      onClick: () => navigation("/login"),
+      onClick: "/login",
+      // onClick: () => navigation("/login"),
     },
     {
       id: 2,
       title: "Register",
-      onClick: () => navigation("/pre-registration"),
+      onClick: "/pre-registration",
+      // onClick: () => navigation("/pre-registration"),
     },
     {
       id: 3,
