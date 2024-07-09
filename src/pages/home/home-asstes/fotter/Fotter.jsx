@@ -26,7 +26,7 @@ const FotterAgain = () => {
       //   justifyContent="center"
       alignItems="center"
       px={{ md: 4, sm: 2, xs: 1 }}
-      pt={{ md: 8, xs: 4 }}
+      pt={{ md: 8, xs: 7 }}
     >
       <Box
         sx={{
@@ -99,7 +99,7 @@ const FotterAgain = () => {
       <Box
         sx={{ width: { xs: "100%", sm: "33.33%", md: "33.33%", lg: "30%" } }}
       >
-        <Stack ml={{ md: 8 }} mt={-6}>
+        <Stack ml={{ md: 8 }} mt={{md:-6 , sx:0}}>
           <p className="fotterHeading">Contact Us</p>
           <List sx={{ color: "#fff", paddingTop: 0 }}>
             <StyledListItem>+345 454 4626</StyledListItem>
