@@ -107,7 +107,7 @@ const CustomButton = ({
       </Box>
       {isIcon && (
         <div className="vectorImgContainer">
-          <img src={Images.Vector} className="vectorImage" alt="Sort Icon" />
+          <img onClick={handleClick} src={Images.Vector} className="vectorImage" alt="Sort Icon" />
         </div>
       )}
     </Box>
